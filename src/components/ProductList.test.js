@@ -1,6 +1,8 @@
 import React from 'react';
-import {shallow} from 'enzyme';
+import { shallow } from 'enzyme';
 import ProductList from './ProductList';
+
+
 it('should render a list of products as an unordered list', () => {
   const mockProducts = [
     {id: 1, name: 'Mock Product 1', brand: 'MockBrandA'},
