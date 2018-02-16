@@ -6,7 +6,7 @@ function ProductList(props) {
     <ul>
        {
          props.products.map(product => (
-           <li key={product.id}>
+           <li key={product.id} onClick={() => props.onProductSelect(product)}>
              {product.name} ({product.brand})
            </li>
          ))
@@ -16,6 +16,7 @@ function ProductList(props) {
  }
 
 ProductList.propTypes = {
-  products: PropTypes.array.isRequired
+  products: PropTypes.array.isRequired,
+  onProductSelect: PropTypes.func.isRequired
 };
 export default ProductList;
