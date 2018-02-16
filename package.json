@@ -5,8 +5,8 @@
   "dependencies": {
     "jest-cli": "^22.3.0",
     "prop-types": "^15.6.0",
-    "react": "^15.5.4",
-    "react-dom": "15.6.1"
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
